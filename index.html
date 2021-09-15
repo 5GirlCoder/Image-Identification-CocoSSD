@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>
+            Object Identification
+        </title>
+
+        <link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap" rel="stylesheet">
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+      
+        <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+        
+        <style>
+            body
+            {
+                background: linear-gradient(#d6d3d3 10%, #FFE8E2 100%);
+                font-family: 'Akaya Kanadaka', cursive;
+            }
+
+            .HeadingDIV
+            {
+                background-color: #FFE8E2;
+                border: 2px solid #F7F7F7;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px #A3A3A3;
+                width: 700px;
+                padding: 5px;
+                margin: 15px;
+            }
+
+            .ObjectNameDIV
+            {
+                background-color: #F7F7F7;
+                border: 3px solid #A3A3A3;
+                border-radius: 10px;
+                box-shadow: 5px 5px 5px #A3A3A3;
+                width: 700px;
+                padding: 10px;
+                margin: 15px;
+            }
+
+            .ObjectIMG
+            {
+                width: 90px;
+
+            }
+
+        </style>
+    </head>
+    
+
+    <body>
+        <center>
+            <div class = "HeadingDIV">
+                <h2>Object Identification</h2>
+            </div>
+            <br>
+
+            <div onclick = "redirect1()" class = "ObjectNameDIV">
+                <h3>Window</h3>
+                <img src="https://img.icons8.com/external-vitaliy-gorbachev-flat-vitaly-gorbachev/58/000000/external-window-vacation-vitaliy-gorbachev-flat-vitaly-gorbachev.png"/>
+            </div>
+            <br>
+
+            <div onclick = "redirect2()" class = "ObjectNameDIV">
+                <h3>Wardrobe</h3>
+                <img class = "ObjectIMG" src="https://img.icons8.com/bubbles/50/000000/wardrobe.png"/>
+            </div>
+            <br>
+            
+            <div onclick = "redirect3()" class = "ObjectNameDIV">
+                <h3>Fridge</h3>
+                <img class = "ObjectIMG" src="https://img.icons8.com/cotton/64/000000/fridge.png"/>
+            </div>
+            <br>
+            
+            <div onclick = "redirect4()" class = "ObjectNameDIV">
+                <h3>Pencil Box</h3>
+                <img class = "ObjectIMG" src="https://img.icons8.com/external-justicon-lineal-color-justicon/64/000000/external-pencil-case-creativity-and-design-justicon-lineal-color-justicon.png"/>
+            </div>
+            <br>
+
+        </center>
+            
+        <script>
+            function redirect1()
+            {
+                window.location = 'Window.html';
+            }
+
+            function redirect2()
+            {
+                window.location = 'Wardrobe.html';
+            }
+
+            function redirect3()
+            {
+                window.location = 'Fridge.html';
+            }
+
+            function redirect3()
+            {
+                window.location = 'PencilBox.html';
+            }
+        </script>
+    </body> 
+</html>
